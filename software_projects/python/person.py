@@ -29,9 +29,9 @@ class Person:
             print(f'{self.name} is not old')
 
 
-x = input("enter name")
-y = input("male or female")
-c = int(input("enter birth date"))
+x = input("enter name: ")
+y = input("male or female: ")
+c = int(input("enter birth date: "))
 z = calculate_age(c)
 person = Person(x, y, z)
 person.is_old(50)
